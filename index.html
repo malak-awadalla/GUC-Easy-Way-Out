@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GUC Easy Way Out</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .details{
+            height: 13rem;
+            width: 18rem;
+            border-radius: 0.5rem;
+            background-color: #8694cf;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                        0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden; 
+            transition-property: all; 
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out; 
+        }
+        .details:hover{
+            height: 14rem; 
+            width: 20rem; 
+            background-color: #07175e; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                        0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+            transform: scale(1.1); 
+
+        }
+
+        .details2{
+            height: 13rem;
+            width: 18rem;
+            border-radius: 0.5rem;
+            background-color: #b9c3ed;
+            color: white;
+            font-weight: 600;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                        0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden; 
+            transition-property: all; 
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out; 
+        }
+
+        .details2:hover{
+            height: 14rem; 
+            width: 20rem; 
+            background-color: #07175e; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                        0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+            transform: scale(1.1); 
+
+        }
+
+        .inner-details{
+            text-align: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition-property: opacity;
+            transition-duration: 300ms;
+            z-index: 20;
+        }
+        .inner-details:hover{
+            opacity:1;
+        }
+
+        .idk{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition-property: opacity;
+            transition-duration: 300ms;
+            z-index: 10;
+            gap: 0.75rem;
+        }
+    </style>
+  </head>
+
+    <body class= "bg-[url('image/back.jpg')] bg-cover bg-center h-screen" >
+        <div class="flex flex-col items-center  mt-10   px-2 sm:px-4 lg:px-6">
+            <div class="top-section flex flex-col items-center mb-10"> 
+                <h1 class="text-5xl font-bold mb-4 mt-4 text-slate-50 text-center">GUC Easy Way Out</h1>
+                <h2 class="text-xl mb-4 text-slate-50 text-center">Forget the chaos. We're here to make your GUC journey smoother, faster, and way easier.</h2>
+            </div>
+
+            <div class=" middle-section flex flex-row item-center justify-center gap-5 w-full">
+                <a href="https://guc-switching-groups.vercel.app/" target="_blank" class=" details group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\arrow.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-slate-50">Switching Groups</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Find your desired group & tutorial for an easier semester!
+                    </span>
+                </a>
+
+                <a href="https://malak-awadalla.github.io/GUC-calculator/" target="_blank" class="details2 group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\calculator.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-blue-900">GPA Calculator</span>
+                    </div>
+
+                    <span class="inner-details">
+                         Stay on top of your academic game. Track your progress & calculate your GPA with ease.
+                    </span>
+                </a>
+
+                <a href="https://malak-awadalla.github.io/GUC-Clubs/index.html" target="_blank" class=" details group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\users.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-slate-50">Club Explorer</span>
+                    </div>
+
+                    <span class="inner-details">
+Step away from your desk, discover new interests & meet new people!                    </span>
+                </a>
+
+                <a href="guc-handouts.html" target="_blank" class="details2 group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\book-open-text.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-blue-900">GUC Handouts</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Find all lectures, tutorials, handouts, past quizzes & exams here!
+                    </span>
+                </a>
+                
+            </div>
+
+            <div class=" middle-section flex flex-row item-center justify-center gap-5 mt-5 w-full">
+
+                 <a href="https://www.gpa-converter.sherlemious.com/" target="_blank" class="details2 group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\globe.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-blue-900">GPA Converter</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Convert your German GPA to American!
+                    </span>
+                </a>
+
+                 <a href="https://chromewebstore.google.com/detail/enndgogigccocaklahipianacdgepckm?utm_source=item-share-cb" target="_blank" class=" details group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\hard-drive-download.png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-slate-50">GUC Downloader</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Download GUC files with their actual names (e.g., “(MATH 401) Lecture 5”) — saving you time and frustration.
+                    </span>
+                </a>
+
+                <a href="Courses-platform.html" target="_blank" class="details2 group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\briefcase-business (1).png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-blue-900">Courses</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Elevate your education & enrich your skills w/ new courses!
+                    </span>
+                </a>
+                <a href="about-us.html" class=" details group">
+                    <div class=" idk group-hover:opacity-0">
+                        <div class=" flex w-12 h-12 mb-2 items-center rounded-full overflow-hidden shadow-lg bg-white shadow mx-4 justify-center">
+                            <img src="image\hourglass (3).png" class=" item-center w-8 h-8 object-cover">
+                        </div>
+                        <span class="text-xl font-semibold whitespace-nowrap text-slate-50">About Us</span>
+                    </div>
+
+                    <span class="inner-details">
+                        Get in Touch!
+                    </span>
+                </a>
+                
+            </div>
+
+            <div class="mt-10 w-[600px] h-[200px] rounded-md border-2 border-blue-900 bg-white p-4 flex flex-col items-center justify-center">
+                <h1 class=" text-2xl font-semibold mb-6 text-lg text-indigo-900 text-center">Empowering GUCians One Click at a Time</h1>
+                <h2 class="  text-gray-700 text-center">Navigate through our comprehensive educational platform designed to enhance your academic experience. Each section is carefully crafted to provide you with the tools and resources you need.</h2>
+            </div>
+
+            <div class="w-screen bg-white bottom-section flex flex-col items-center mt-16">
+                    <div class=" flex flex-row  items-center gap-4 mt-3">
+                        <a href="https://www.linkedin.com/in/malak-abdulgawad/" target="_blank" class="w-9 h-9 hover:scale-105"> <img src="image\cropped_circle_image.png" >
+                        </a>
+                        <a href="mailto:malak.abdulgawad1934@gmail.com" target="_blank" class="w-9 h-9 hover:scale-105"> <img src="image\cropped_circle_image (1).png" >
+                        </a>
+                        <a href="https://www.instagram.com/_some1.unknown/" target="_blank" class="w-9 h-9 hover:scale-105"> <img src="image\insta.png" >
+                        </a>
+                    </div>
+                    <a href="https://www.linkedin.com/in/malak-abdulgawad/" target="_blank" class="text-1xl font-semibold mb-3 mt-2 text-indigo-900 text-center underline"> Developed by Malak Abdulgawad</a>
+                    <h2 class=" text-gray-700 text-center" >©2025 GUC Easy Way Out. Empowering education through technology.</h2>
+                </div>
+        </div>
+
+        
+    </body>
+</html>
